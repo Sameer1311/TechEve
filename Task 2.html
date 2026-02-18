@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Portfolio & Registration</title>
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+<h1 align="center">Student Portfolio Website</h1>
+<hr>
+
+<!-- ================= NAVIGATION ================= -->
+<h3 align="center">Navigation</h3>
+<ul align="center">
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#media">Media</a></li>
+    <li><a href="#registration">Registration Form</a></li>
+    <li><a href="#contact">Contact</a></li>
+</ul>
+
+<hr>
+
+<!-- ================= ABOUT SECTION ================= -->
+<h2 id="about" align="center">About Me</h2>
+<p align="center">
+    Hello! My name is <b>Sameer Negi</b>. I am a passionate student learning Web Development.
+    I love building websites and exploring new technologies.
+</p>
+
+<hr>
+
+<!-- ================= SKILLS SECTION ================= -->
+<h2 align="center" id="skills">Skills</h2>
+<h3 align="left">Technical skills</h3>
+<ul >
+    <li>Html 5</li>
+    <li>CSS </li>
+    <li>Tailwind Css </li>
+    <li>Javascript (es6)</li>
+    <li>Node js </li>
+    <li>Express js </li>
+    <li>Mongo db</li>
+    <li>React js </li>
+    <li>Next js </li>
+</ul>
+<h3>Additional skills</h3>
+<ul>
+<li>Three js </li>
+<li>Framer motion</li>
+<li>Web sockets</li>
+</ul>
+<h3>Deployment</h3>
+<ul>
+    <li>Vercel</li>
+    <li>Netlify</li>
+</ul>
+<h3>Version control / ide</h3>
+<ul>
+    <li>Git / Github</li>
+    <li>Visual code</li>
+    <li>Webstrom (current)</li>
+</ul>
+<hr>
+
+<!-- ================= EDUCATION SECTION ================= -->
+<h2 id="education" align="center">Education</h2>
+
+<table border="1" cellpadding="10" align="center">
+    <tr>
+        <th>Qualification</th>
+        <th>Institution</th>
+        <th>Year</th>
+
+    </tr>
+    <tr>
+        <td>10th</td>
+        <td>Shree Guru Ram Rai Public School </td>
+        <td>2020</td>
+
+    </tr>
+    <tr>
+        <td>12th</td>
+        <td>Shree Guru Ram Rai Public School </td>
+        <td>2022</td>
+
+    </tr>
+    <tr>
+        <td>Bachelor's Degree</td>
+        <td>Sree dev suman </td>
+        <td>2025</td>
+
+    </tr>
+</table>
+
+<hr>
+
+<!-- ================= PROJECT SECTION ================= -->
+<h2 id="projects" align="center">Projects</h2>
+
+<span align="center">
+    <p>
+        <b>Portfolio Website - Personal developer portfolio.
+        <br>
+        <a href="https://negisameer.live" target="_blank">View Project</a>
+    <p>
+</span>
+
+<hr>
+
+<!-- ================= MEDIA SECTION ================= -->
+<h2 id="media" align="center">Media</h2>
+
+<h3>Profile Image</h3>
+<img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTABbXr4i-QODqhy7tofHYmTYh05rYPktzacw&s" alt="Profile Image">
+
+<h3>Introduction Video</h3>
+<video width="300" controls align="center" muted>
+    <source src="https://www.youtube.com/shorts/oxGS1DkAA4w?feature=share" type="video/mp4">
+    Your browser does not support video.
+</video>
+
+<h3>Sample Audio</h3>
+<audio controls>
+    <source src="sample-audio.mp3" type="audio/mp3">
+    Your browser does not support audio.
+</audio>
+
+<hr>
+
+<!-- ================= IFRAME SECTION ================= -->
+<h2>Location (Google Map using iFrame)</h2>
+
+<iframe
+        src="https://www.google.com/maps/place/Ambiwala,+Uttarakhand+248007/@30.321647,77.9217122,15z/data=!3m1!4b1!4m6!3m5!1s0x39092aaef4c998df:0x934fe6f8b32815c0!8m2!3d30.3203622!4d77.9310283!16s%2Fg%2F12hmqkdsv?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D"
+        width="400"
+        height="300">
+</iframe>
+
+<hr>
+
+<!-- ================= CANVAS SECTION ================= -->
+<h2>Canvas Example</h2>
+<canvas width="300" height="150" style="border:1px solid black;">
+    Your browser does not support canvas.
+</canvas>
+
+<hr>
+
+<!-- ================= REGISTRATION FORM ================= -->
+<h2 id="registration">Student Registration Form</h2>
+
+<form>
+
+    <label>Full Name:</label><br>
+    <input type="text" name="fullname" required><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email" required><br><br>
+
+    <label>Password:</label><br>
+    <input type="password" name="password"><br><br>
+
+    <label>Gender:</label><br>
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female
+    <br><br>
+
+    <label>Skills Known:</label><br>
+    <input type="checkbox" name="skill" value="html"> HTML
+    <input type="checkbox" name="skill" value="css"> CSS
+    <input type="checkbox" name="skill" value="js"> JavaScript
+    <br><br>
+
+    <label>Date of Birth:</label><br>
+    <input type="date" name="dob"><br><br>
+
+    <label>Upload Resume:</label><br>
+    <input type="file" name="resume"><br><br>
+
+    <label>Select Course:</label><br>
+    <select name="course">
+        <option value="bca">BCA</option>
+        <option value="btech">B.Tech</option>
+        <option value="bsc">B.Sc</option>
+    </select>
+    <br><br>
+
+    <label>Address:</label><br>
+    <textarea rows="4" cols="40"></textarea>
+    <br><br>
+
+    <input type="submit" value="Register">
+    <input type="reset" value="Clear Form">
+
+</form>
+
+<hr>
+
+<!-- ================= CONTACT SECTION ================= -->
+<h2 id="contact">Contact</h2>
+
+<p>Email: negisameer72@gmail.com</p>
+<p>Phone: +91 9058420228</p>
+
+<h3>Follow Me</h3>
+<a align="center" href="https://www.linkedin.com/in/sameer-negi-52a85b336/" target="_blank">LinkedIn</a><br>
+<a href="https://github.com/Sameer1311" target="_blank">GitHub</a>
+
+<hr>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+    <p align="center">
+        This is simple student portfolio
+    </p>
+</footer>
+
+</body>
+</html>
