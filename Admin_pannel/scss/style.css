@@ -1,0 +1,19 @@
+$primary: #4e73df;
+
+.login-bg{
+    background: linear-gradient(120deg,#4e73df,#224abe);
+}
+
+.sidebar{
+    width:220px;
+    min-height:100vh;
+}
+
+.content{
+    background:#f8f9fc;
+}
+
+.login-card{
+    width:350px;
+    border-radius:10px;
+}
